@@ -16,4 +16,4 @@ Hint: Don't forget to check for bad values like null/undefined
 
 def count_sheeps(sheep):
   # TODO May the force be with you
-  return sum(n for n in sheep if n)
+  return sum(n for n in sheep if n) # a better way of counting in a list would be sheep.count(True)
