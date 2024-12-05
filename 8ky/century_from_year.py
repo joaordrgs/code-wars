@@ -13,3 +13,7 @@ Examples
 2742 --> 28
 Note: this kata uses strict construction as shown in the description and the examples, you can read more about it here
 '''
+
+def century(year):
+    # Finish this :)
+    return (year - 1) // 100 + 1 # year - 1 because 1900 - 1 == 1899 => 19
