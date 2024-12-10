@@ -12,4 +12,4 @@ Examples
 '''
 
 def find_it(seq):
-    return next(n for n in seq if seq.count(n) % 2 != 0)
+    return next(n for n in seq if seq.count(n) % 2 != 0) # The next() ensures that only the necessary amount of calculations are made, stopping at the first one
