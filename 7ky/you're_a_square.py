@@ -20,3 +20,14 @@ Examples
 26  =>  false
 '''
 
+import math
+def is_square(n):    
+    if n == 0:
+        return True
+    elif n > 0:
+        if n % math.sqrt(n) == 0:
+            return True
+        else:
+            return False
+    else:
+        return False
